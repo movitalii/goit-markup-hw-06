@@ -66,7 +66,7 @@
                 </button>
 
                 <form class="form modal-form">
-                    <h3 class="title">Оставьте свои данные, мы вам перезвоним</h3>
+                    <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
                     <div class="form-field">
                         <label for="user-name">Имя</label>
                         <input type="text" name="user-name" id="user-name">
@@ -78,15 +78,20 @@
                     </div>
 
                    <div class="form-field">
-                    <label for="user-mail">Почта</label>
-                    <input type="email" name="user-mail" id="user-mail">
+                        <label for="user-mail">Почта</label>
+                        <input type="email" name="user-mail" id="user-mail">
                    </div>
                    
-                    <label for="user-comment">Комментарий</label>
-                    <textarea name="comment" rows="5" placeholder="Введите текст" id="user-comment"></textarea>
+                    <div class="form-field comment">
+                        <label for="user-comment">Комментарий</label>
+                        <textarea class="comment" name="comment" rows="5" placeholder="Введите текст" id="user-comment"></textarea>
+                    </div>
 
-                    <input type="checkbox" name="terms" value ="terms" id="terms" checked>
-                    <label for="terms">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                    <div class="form-field checkbox">
+                        <input type="checkbox" name="terms" value="terms" id="terms" checked>
+                        <label for="terms">Соглашаюсь с рассылкой и принимаю <a class="link" href="">Условия договора</a> </label>
+                    </div> 
+                    
 
                     <button type="submit">Отправить</button>
                 </form>

@@ -248,8 +248,7 @@ p {
     left: 50%;
 
     width: 528px;
-    height: 581px;
-
+    
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -277,9 +276,6 @@ p {
     background-color: #FFFFFF;
 }
 
-textarea {
-    resize: none;
-}
 
 .form {
     width: 100%;
@@ -316,6 +312,49 @@ textarea {
 
 .form-field label {
     margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.form-field.comment {
+    margin-bottom: 20px;
+}
+
+.form-field .comment {
+    padding: 14px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px
+}
+
+.form-field.checkbox {
+    margin-bottom: 30px;
+}
+
+
+
+.form-field.checkbox label {
+    margin-bottom: 0;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+
+.form textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+textarea {
+    resize: none;
 }
 
 button {
