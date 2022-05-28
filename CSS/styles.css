@@ -279,16 +279,16 @@ p {
 
 
 .form {
-    width: 100%;  
+    width: 100%;
 }
 
 .form-modal-icon {
-    position:absolute;
+    position: absolute;
     bottom: 11px;
     left: 12px;
 }
 
-.form-input:focus + .form-modal-icon {
+.form-input:focus+.form-modal-icon {
     fill: #2196F3;
 }
 
@@ -299,7 +299,7 @@ p {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    
+
     color: var(--title-text-color);
 
     margin-bottom: 12px;
@@ -315,6 +315,7 @@ p {
 .form-input {
     margin: 0;
     padding: 11px 12px;
+    padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px
 }
@@ -337,6 +338,12 @@ p {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px
 }
+
+.form-field.checkbox {
+    margin-bottom: 30px;
+}
+
+
 
 .form-field.checkbox {
     margin-bottom: 30px;
