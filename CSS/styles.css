@@ -857,6 +857,7 @@ img {
 
 .footer .address {
     display: block;
+    padding-right: 13px;
 }
 
 .footer .container {
